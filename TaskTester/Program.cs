@@ -11,11 +11,11 @@ namespace TaskTester
     {
         static void Main(string[] args)
         {
-            string modelingProjectPath = @"C:\Stephen.Tunney_Wat-STunney_5.3_XeroxStaples_5801\Architecture\Partners\Xerox.Staples\Xerox.Staples\Xerox.Staples.modelproj";
+            string modelingProjectPath = @"sample.modelproj";
             //string sequenceDiagramPath = @"C:\Stephen.Tunney_Wat-STunney_5.3_XeroxStaples_5801\Architecture\Partners\Xerox.Staples\Xerox.Staples\CreditCardLogin.sequencediagram";
-            string outputPath = @"C:\Stephen.Tunney_Wat-STunney_5.3_XeroxStaples_5801\Architecture\Partners\Xerox.Staples\Xerox.Staples\out\images";
+            string outputPath = @"out\images";
 
-            ArchitectureTask task = new ArchitectureTask();
+            ArchitectureDiagramsToImagesTask task = new ArchitectureDiagramsToImagesTask();
             task.ModelingProjectPath = modelingProjectPath;
             task.OutputPath = outputPath;
             task.Execute();
