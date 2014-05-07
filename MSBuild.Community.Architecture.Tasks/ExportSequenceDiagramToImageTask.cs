@@ -24,6 +24,10 @@ namespace MSBuild.Community.Architecture.Tasks
             //http://msdn.microsoft.com/en-us/library/ff469815.aspx
             //http://stackoverflow.com/questions/3009163/a-generic-error-occurred-in-gdi
 
+            //Visual studio requires this in order to execute this task! http://www.microsoft.com/en-us/download/confirmation.aspx?id=40754
+
+            bool retval = false;
+
             try
             {
                 Log.LogMessage("Loading modeling project {0}", ModelingProjectPath);
@@ -50,13 +54,14 @@ namespace MSBuild.Community.Architecture.Tasks
                 }
                 Log.LogMessage("Done");
 
-                return true;
+                retval = true;
             }
             catch (Exception _ex)
             {
-                Log.LogError(_ex.Message);
-                return false;
+                Log.LogError(_ex.Message);                
             }
+
+            return retval;
         }
     }
 }
