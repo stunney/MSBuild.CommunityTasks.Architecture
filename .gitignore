@@ -41,6 +41,9 @@ local.properties
 *.user
 *.sln.docstates
 
+#NuGet generated packages
+*.nupkg
+
 # Build results
 
 [Dd]ebug/

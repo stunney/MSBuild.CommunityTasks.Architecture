@@ -1,11 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Community.Architecture.Tasks", "MSBuild.Community.Architecture.Tasks\MSBuild.Community.Architecture.Tasks.csproj", "{43B0F0B8-F687-41B7-B207-4149A87EA8F1}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Community.Architecture.Tasks.12.0", "MSBuild.Community.Architecture.Tasks\MSBuild.Community.Architecture.Tasks.12.0.csproj", "{43B0F0B8-F687-41B7-B207-4149A87EA8F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTester", "TaskTester\TaskTester.csproj", "{20FEAA50-2A4E-48B8-86AF-FBF827F03C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Community.Architecture.Tasks.11.0", "MSBuild.Community.Architecture.Tasks.11.0\MSBuild.Community.Architecture.Tasks.11.0.csproj", "{0D88DBC0-7699-4FB1-AAF8-46B7BF1B7BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Community.Architecture.Core", "MSBuild.Community.Architecture.Core\MSBuild.Community.Architecture.Core.csproj", "{8BA1B60A-2BA4-4CD0-9F0F-5DA2E4AD6BD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2979278F-53CD-49DC-83EC-5A4969C942A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{34F263F5-0935-46B2-9849-39A6A1A8FB22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VS2012", "VS2012", "{7C526F58-EDC2-4739-AA62-EF91F03A98C4}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\VS2012\MSBuild.Community.Architecture.Tasks.11.0.0.0.nuspec = NuGet\VS2012\MSBuild.Community.Architecture.Tasks.11.0.0.0.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3BC49160-5461-48DC-BBCA-2998BA7EB0DA}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.props = NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.props
+		NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.targets = NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{CAF8A823-E109-4ABC-802D-BDF5760B6043}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\VS2012\content\MSBuild.Community.Architecture.Core.dll = NuGet\VS2012\content\MSBuild.Community.Architecture.Core.dll
+		NuGet\VS2012\content\MSBuild.Community.Architecture.Core.pdb = NuGet\VS2012\content\MSBuild.Community.Architecture.Core.pdb
+		NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.dll = NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.dll
+		NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.pdb = NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.pdb
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +46,21 @@ Global
 		{20FEAA50-2A4E-48B8-86AF-FBF827F03C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20FEAA50-2A4E-48B8-86AF-FBF827F03C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20FEAA50-2A4E-48B8-86AF-FBF827F03C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D88DBC0-7699-4FB1-AAF8-46B7BF1B7BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D88DBC0-7699-4FB1-AAF8-46B7BF1B7BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D88DBC0-7699-4FB1-AAF8-46B7BF1B7BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D88DBC0-7699-4FB1-AAF8-46B7BF1B7BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA1B60A-2BA4-4CD0-9F0F-5DA2E4AD6BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA1B60A-2BA4-4CD0-9F0F-5DA2E4AD6BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA1B60A-2BA4-4CD0-9F0F-5DA2E4AD6BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA1B60A-2BA4-4CD0-9F0F-5DA2E4AD6BD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C526F58-EDC2-4739-AA62-EF91F03A98C4} = {34F263F5-0935-46B2-9849-39A6A1A8FB22}
+		{3BC49160-5461-48DC-BBCA-2998BA7EB0DA} = {7C526F58-EDC2-4739-AA62-EF91F03A98C4}
+		{CAF8A823-E109-4ABC-802D-BDF5760B6043} = {7C526F58-EDC2-4739-AA62-EF91F03A98C4}
 	EndGlobalSection
 EndGlobal

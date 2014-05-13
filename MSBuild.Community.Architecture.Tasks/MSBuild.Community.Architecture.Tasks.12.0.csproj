@@ -54,6 +54,12 @@
     <Compile Include="ExportSequenceDiagramToImageTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MSBuild.Community.Architecture.Core\MSBuild.Community.Architecture.Core.csproj">
+      <Project>{8ba1b60a-2ba4-4cd0-9f0f-5da2e4ad6bd2}</Project>
+      <Name>MSBuild.Community.Architecture.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
