@@ -194,6 +194,8 @@ $RECYCLE.BIN/
 *.egg-info
 dist/
 build/
+!NuGet/
+!NuGet/build
 eggs/
 parts/
 var/
