@@ -43,9 +43,6 @@ local.properties
 
 #NuGet generated packages
 *.nupkg
-!*.targets
-!*.nuspec
-!*.props
 
 # Build results
 
