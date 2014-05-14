@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="ExportSequenceDiagramToImageTask" AssemblyFile="MSBuild.Community.Architecture.Tasks.12.0.dll" />
+  <Target Name="AfterBuild" >
+    <ExportSequenceDiagramToImageTask ModelingProjectPath="$(ProjectPath)" OutputPath="$(OutputPath)" />
+  </Target>
+</Project>
