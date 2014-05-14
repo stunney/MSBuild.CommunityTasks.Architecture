@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MSBuild.Community.Architecture.Tasks.12.0</id>
+        <version>1.0.0.0</version>
+        <authors>Stephen Tunney,Canada</authors>
+        <owners>Stephen Tunney,Canada</owners>
+        <licenseUrl>http://creativecommons.org/licenses/by-sa/4.0/</licenseUrl>
+        <projectUrl>https://github.com/stunney/MSBuild.CommunityTasks.Architecture</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Community MSBuild task that generates JPEG files from Architecture diagrams for distribution to the development team.</description>
+        <releaseNotes>Initial Release.  Requires VS 2013 Architect Edition, VSSDK, VS Modeling and Viz SDK.</releaseNotes>
+        <copyright>Copyright 2014, Stephen Tunney, Canada</copyright>
+        <tags>Visual Studio Architect Drawing Diagram Export Build MSBuild JPG Modeling Visualization</tags>
+    </metadata>
+    <files>
+        <file src="build\MSBuild.Community.Architecture.Tasks.12.0.targets" target="build\MSBuild.Community.Architecture.Tasks.12.0.targets" />
+        <file src="build\MSBuild.Community.Architecture.Tasks.12.0.dll" target="build\MSBuild.Community.Architecture.Tasks.12.0.dll" />
+        <file src="build\MSBuild.Community.Architecture.Tasks.12.0.pdb" target="build\MSBuild.Community.Architecture.Tasks.12.0.pdb" />
+        <file src="build\MSBuild.Community.Architecture.Core.dll" target="build\MSBuild.Community.Architecture.Core.dll" />
+        <file src="build\MSBuild.Community.Architecture.Core.pdb" target="build\MSBuild.Community.Architecture.Core.pdb" />
+    </files>
+</package>

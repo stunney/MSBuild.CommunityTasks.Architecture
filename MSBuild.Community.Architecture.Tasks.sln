@@ -20,16 +20,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VS2012", "VS2012", "{7C526F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3BC49160-5461-48DC-BBCA-2998BA7EB0DA}"
 	ProjectSection(SolutionItems) = preProject
-		NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.props = NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.props
-		NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.targets = NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.targets
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{CAF8A823-E109-4ABC-802D-BDF5760B6043}"
-	ProjectSection(SolutionItems) = preProject
 		NuGet\VS2012\content\MSBuild.Community.Architecture.Core.dll = NuGet\VS2012\content\MSBuild.Community.Architecture.Core.dll
 		NuGet\VS2012\content\MSBuild.Community.Architecture.Core.pdb = NuGet\VS2012\content\MSBuild.Community.Architecture.Core.pdb
 		NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.dll = NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.dll
 		NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.pdb = NuGet\VS2012\content\MSBuild.Community.Architecture.Tasks.11.0.pdb
+		NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.targets = NuGet\VS2012\build\MSBuild.Community.Architecture.Tasks.11.0.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VS2013", "VS2013", "{668CDF82-7947-4989-B35A-9B026B894210}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\VS2013\MSBuild.Community.Architecture.Tasks.12.0.nuspec = NuGet\VS2013\MSBuild.Community.Architecture.Tasks.12.0.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{EEA22BE7-A458-4980-A3A3-E3C859AC6BEA}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\VS2013\build\MSBuild.Community.Architecture.Core.dll = NuGet\VS2013\build\MSBuild.Community.Architecture.Core.dll
+		NuGet\VS2013\build\MSBuild.Community.Architecture.Core.pdb = NuGet\VS2013\build\MSBuild.Community.Architecture.Core.pdb
+		NuGet\VS2013\build\MSBuild.Community.Architecture.Tasks.12.0.dll = NuGet\VS2013\build\MSBuild.Community.Architecture.Tasks.12.0.dll
+		NuGet\VS2013\build\MSBuild.Community.Architecture.Tasks.12.0.pdb = NuGet\VS2013\build\MSBuild.Community.Architecture.Tasks.12.0.pdb
+		NuGet\VS2013\build\MSBuild.Community.Architecture.Tasks.12.0.targets = NuGet\VS2013\build\MSBuild.Community.Architecture.Tasks.12.0.targets
 	EndProjectSection
 EndProject
 Global
@@ -60,7 +69,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7C526F58-EDC2-4739-AA62-EF91F03A98C4} = {34F263F5-0935-46B2-9849-39A6A1A8FB22}
+		{668CDF82-7947-4989-B35A-9B026B894210} = {34F263F5-0935-46B2-9849-39A6A1A8FB22}
 		{3BC49160-5461-48DC-BBCA-2998BA7EB0DA} = {7C526F58-EDC2-4739-AA62-EF91F03A98C4}
-		{CAF8A823-E109-4ABC-802D-BDF5760B6043} = {7C526F58-EDC2-4739-AA62-EF91F03A98C4}
+		{EEA22BE7-A458-4980-A3A3-E3C859AC6BEA} = {668CDF82-7947-4989-B35A-9B026B894210}
 	EndGlobalSection
 EndGlobal
